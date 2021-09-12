@@ -11,7 +11,7 @@ Simple commands for mongoDB
 *show Collections*
 
 ## Creating new database (Way - 1)
-*use <database-name>*
+*use database-name*
 
 ## Creating new database (Way - 2)
 *db.createDatabase('database-name)*
@@ -26,4 +26,4 @@ Simple commands for mongoDB
 *db.dropCollection('collection-name')*
 
 ## Drop collection (way - 1)
-*db.<collection-name>.drop()*
+*db.collection-name.drop()*
